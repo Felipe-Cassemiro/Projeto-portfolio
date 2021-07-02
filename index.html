@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="image/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="image/favicon_io/favicon.ico">
+
+    <title>Felipe Cassemiro</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div>
+
+        <header>
+            <!--Imagem de fundo-->
+            <div class="img-wrapper">
+                <img src="image/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg" alt="">
+            </div>
+            <!--Banner inicial-->
+            <div class="banner">
+                <h1>Desenvolvedor Front End</h1>
+                <p>Felipe Cassemiro</p>
+                <button><a href="sobre.html">Saiba mais</a></button>
+            </div>
+        </header>
+
+        <aside id="sidebar">
+            <nav id="nav">
+                <ul id="menu" role="menu">
+                    <li class="menu-item"><a href="/" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="/" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="/" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="/" class="menu-link">Contato</a></li>
+                  </ul>
+            </nav>
+            <div class="social-midia">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                <a href=""><i class="fab fa-github-alt"></i></a>
+            </div>
+
+        </aside>
+
+
+        <section class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus libero in sem convallis egestas. Morbi tempor, nisi non eleifend egestas, eros nisl vulputate eros, sed lobortis massa velit a.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus libero in sem convallis egestas. Morbi tempor, nisi non eleifend egestas, eros nisl vulputate eros, sed lobortis massa velit a.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js-square"></i>
+                        <h3>JScript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus libero in sem convallis egestas. Morbi tempor, nisi non eleifend egestas, eros nisl vulputate eros, sed lobortis massa velit a.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-cuttlefish"></i>
+                        <h3>C#</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus libero in sem convallis egestas. Morbi tempor, nisi non eleifend egestas, eros nisl vulputate eros, sed lobortis massa velit a.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github-square"></i>
+                        <h3>Git & Github</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus libero in sem convallis egestas. Morbi tempor, nisi non eleifend egestas, eros nisl vulputate eros, sed lobortis massa velit a.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus libero in sem convallis egestas. Morbi tempor, nisi non eleifend egestas, eros nisl vulputate eros, sed lobortis massa velit a.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao-contato">
+            <div class="contato-wrapper">
+
+                <div class="contato-right">
+                    <h1 class="contato1">Contato</h1>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                          </div>
+                          <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                          </div>
+                          <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                          </div>
+                          <button type="submit" class="btn btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </div>    
+
+
+
+
+
+    <script src="jscripts/scripts.js"></script>
+</body>
+</html>
