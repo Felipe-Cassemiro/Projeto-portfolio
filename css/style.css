@@ -344,7 +344,7 @@ header {
 }
 
 .contato-wrapper {
-    width: 60%;
+    width: 65%;
     display: flex;
     height: 35rem;
     
@@ -382,7 +382,7 @@ header {
     width: 20rem;
     font-size: 1.5rem;
     font-family: var(--font-secondary);
-    border-bottom: 2px dashed #636363;
+    border-bottom: .2rem dashed #636363;
     height: 3rem;
     outline: none;
     margin: 2rem 0;
@@ -495,4 +495,29 @@ header {
     * {
         font-size: 13px;
     }
+
+    .conhecimentos {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 5rem;
+        justify-content: center;
+    }
+
+    .conhecimento:nth-child(n+2) {
+        box-sizing: border-box;
+        padding-top: 3rem;
+    }
+
+    .sessao-contato {
+        box-sizing: border-box;
+        justify-content: normal;
+        align-items: center;
+        padding-top: 5rem;
+        box-shadow: none;
+    }
+
+    .contato-wrapper {
+        padding-left: 1.2rem;
+    }
+
 }
