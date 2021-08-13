@@ -40,22 +40,22 @@
         <aside id="sidebar">
             <nav id="nav">
                 <ul id="menu" role="menu">
-                    <li class="menu-item"><a href="/" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="/" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="/" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="/" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimento" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
                   </ul>
             </nav>
             <div class="social-midia">
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                <a href=""><i class="fab fa-github-alt"></i></a>
+                <a href="http://api.whatsapp.com/send?phone=5521974067002"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://linkedin.com/in/felipe-cassemiro-b744a2213"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Felipe-Cassemiro"><i class="fab fa-github-alt"></i></a>
             </div>
 
         </aside>
 
 
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimento">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -117,47 +117,55 @@
             </div>
         </section>
 
-        <section class="sessao-projeto">
+        <section class="sessao-projeto" id="projetos">
             <div class="sessao-header">
                 <h1>Projetos de estudos</h1>
             </div>
 
             <div class="conteudo-projetos">
                 
-                <div class="img-projeto">
-                    <a href="/"><img src="image/mata-mosquito.jpg"></a>
+                <div class="card-projeto">
+                    <div class="img-projeto">
+                        <a href="/"><img src="image/mata-mosquito.jpg"></a>
+                    </div>
                 </div>
                 
-                <div class="img-projeto">
-                    <a href="/"><img src="image/alunos-matriculados.png"></a>
+                <div class="card-projeto">
+                    <div class="img-projeto">
+                        <a href="/"><img src="image/alunos-matriculados.png"></a>
+                    </div>
                 </div>
             
-                <div class="img-projeto">
-                    <a href="/"><img src="image/mata-mosquito.jpg"></a>
+                <div class="card-projeto">
+                    <div class="img-projeto">
+                        <a href="/"><img src="image/mata-mosquito.jpg"></a>
+                    </div>
                 </div>
                 
             </div>
         </section>
 
-        <section class="sessao-contato">
+        <section class="sessao-contato" id="contato">
             <div class="contato-wrapper">
 
                 <div class="contato-right">
                     <h1 class="contato1">Contato</h1>
                     <form action="">
+                            
                         <div class="input-group">
-                            <input type="text" class="field" id="nome">
-                            <label for="nome" class="field-label">Nome</label>
-                          </div>
-                          <div class="input-group">
-                            <input type="text" class="field" id="email">
-                            <label for="email" class="field-label">E-mail</label>
-                          </div>
-                          <div class="input-group">
-                            <textarea class="field" id="mensagem"></textarea>
-                            <label for="mensagem" class="field-label">Mensagem</label>
-                          </div>
-                          <button type="submit" class="btn btn-submit">Enviar</button>
+                            <input type="text" class="field" placeholder="nome" id="nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text" class="field" placeholder="email" id="email">
+                        </div>
+                          
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem" placeholder="deixe sua mensagem"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit">Enviar</button>
+
                     </form>
                 </div>
             </div>
@@ -165,11 +173,7 @@
 
 
 
-
     </div>    
-
-
-
 
 
     <script src="jscripts/scripts.js"></script>
