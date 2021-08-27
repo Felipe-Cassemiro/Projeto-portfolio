@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="image/favicon_io/apple-touch-icon.png">
@@ -16,7 +17,7 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="containerT">
 
         <div id="hamburguer">
             <div class="line" id="line1"></div>
@@ -31,7 +32,7 @@
             </div>
             <!--Banner inicial-->
             <div class="banner">
-                <h1>Desenvolvedor</h1>
+                <h1>Desenvolvedor Front-End</h1>
                 <p>Felipe Cassemiro</p>
                 <button><a href="sobre.html">Saiba mais</a></button>
             </div>
@@ -123,24 +124,11 @@
             </div>
 
             <div class="conteudo-projetos">
+                <a href="/"><img src="image/mata-mosquito.jpg"></a>
                 
-                <div class="card-projeto">
-                    <div class="img-projeto">
-                        <a href="/"><img src="image/mata-mosquito.jpg"></a>
-                    </div>
-                </div>
-                
-                <div class="card-projeto">
-                    <div class="img-projeto">
-                        <a href="/"><img src="image/alunos-matriculados.png"></a>
-                    </div>
-                </div>
+                <a href="/"><img src="image/alunos-matriculados.png"></a>
             
-                <div class="card-projeto">
-                    <div class="img-projeto">
-                        <a href="/"><img src="image/mata-mosquito.jpg"></a>
-                    </div>
-                </div>
+                <a href="/"><img src="image/mata-mosquito.jpg"></a>
                 
             </div>
         </section>
@@ -150,18 +138,18 @@
 
                 <div class="contato-right">
                     <h1 class="contato1">Contato</h1>
-                    <form action="">
+                    <form action="php/envio_formulario.php" method="POST">
                             
                         <div class="input-group">
-                            <input type="text" class="field" placeholder="nome" id="nome">
+                            <input name="nome" type="text" class="field" placeholder="nome" id="nome">
                         </div>
 
                         <div class="input-group">
-                            <input type="text" class="field" placeholder="email" id="email">
+                            <input name="email" type="text" class="field" placeholder="email" id="email">
                         </div>
                           
                         <div class="input-group">
-                            <textarea class="field" id="mensagem" placeholder="deixe sua mensagem"></textarea>
+                            <textarea name="mensagem" class="field" id="mensagem" placeholder="deixe sua mensagem"></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-submit">Enviar</button>
